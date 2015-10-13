@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DM</string>
+
+    <!--                    Authorization and user profile                -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Sign Up</string>
+    <string name="error_invalid_email">Please enter correct email address</string>
+    <string name="error_fill_all_fields">Please fill all fields with correct data</string>
+    <string name="error_password_short">Password must contain at least 8 characters</string>
+    <string name="error_password_long">Password is too long. It must be less then 32 characters</string>
+    <string name="error_confirm_password">Password and confirm password must be same</string>
+    <string name="success_register">You are registered successfully</string>
+    <string name="login">Login</string>
+    <string name="error_wrong_credentials">You have entered invalid email or password</string>
+    <string name="success_login">You have logged in successfully</string>
+    <string name="progress_default_loading_message">Loading...</string>
+
+</resources>
