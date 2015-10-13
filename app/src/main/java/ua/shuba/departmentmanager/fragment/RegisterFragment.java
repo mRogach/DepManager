@@ -13,9 +13,9 @@ import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
 
+import ua.shuba.departmentmanager.R;
 import ua.shuba.departmentmanager.firebase.FirebaseClient;
 import ua.shuba.departmentmanager.global.Constants;
-import ua.shuba.departmentmanager.R;
 
 @EFragment(R.layout.fragment_register)
 public class RegisterFragment extends BaseFragment {

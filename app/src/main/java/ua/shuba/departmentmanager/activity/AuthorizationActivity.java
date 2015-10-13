@@ -5,7 +5,6 @@ import android.os.Bundle;
 import org.androidannotations.annotations.EActivity;
 
 import ua.shuba.departmentmanager.R;
-import ua.shuba.departmentmanager.dialog.ProgressDialog;
 import ua.shuba.departmentmanager.fragment.LogInFragment.LoginCallbacks;
 import ua.shuba.departmentmanager.fragment.LogInFragment_;
 import ua.shuba.departmentmanager.fragment.RegisterFragment.RegisterFragmentListener;

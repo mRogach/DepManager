@@ -1,17 +1,13 @@
 package ua.shuba.departmentmanager.dialog;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.graphics.drawable.ColorDrawable;
+import android.content.DialogInterface;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
-import android.content.DialogInterface;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 
 import ua.shuba.departmentmanager.R;
 
