@@ -13,6 +13,7 @@ import ua.shuba.departmentmanager.R;
 
 public final class ProgressDialog extends DialogFragment {
 
+    
     private static final String KEY_PROGRESS_MESSAGE = "PROGRESS_MESSAGE";
 
     public static String TAG = ProgressDialog.class.getSimpleName();
@@ -35,9 +36,8 @@ public final class ProgressDialog extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        final View view = inflater.inflate(R.layout.dialog_progress, container, false);
 
-        return view;
+        return inflater.inflate(R.layout.dialog_progress, container, false);
     }
 
 //    @Override
