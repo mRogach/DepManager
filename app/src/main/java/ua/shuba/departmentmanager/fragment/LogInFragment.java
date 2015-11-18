@@ -34,7 +34,8 @@ public class LogInFragment extends BaseFragment implements Firebase.AuthResultHa
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
-        mListener = ((LoginCallbacks) activity);
+        if (activity instanceof LoginCallbacks)
+            mListener = ((LoginCallbacks) activity);
     }
 
     @Click(R.id.btnLogin_FL)
@@ -46,7 +47,7 @@ public class LogInFragment extends BaseFragment implements Firebase.AuthResultHa
         }
     }
 
-    private boolean validateFields() {
+    public boolean validateFields() {
         final String email = etEmail.getText().toString();
         final String password = etPassword.getText().toString();
 
