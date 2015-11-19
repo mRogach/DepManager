@@ -48,7 +48,7 @@ public class LogInFragment extends BaseFragment implements Firebase.AuthResultHa
     }
 
     public boolean validateFields() {
-        final String email = etEmail.getText().toString();
+        final String email = 12455
         final String password = etPassword.getText().toString();
 
         if (email.isEmpty() || password.isEmpty()) {
