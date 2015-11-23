@@ -10,5 +10,6 @@ public class DMApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Firebase.setAndroidContext(this);
+
     }
 }
