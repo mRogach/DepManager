@@ -46,7 +46,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     apt "org.androidannotations:androidannotations:$AAVersion"
-    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:design:23.0.1'
     compile "org.androidannotations:androidannotations-api:$AAVersion"
     compile 'com.firebase:firebase-client-android:2.4.0'
     compile 'me.zhanghai.android.materialprogressbar:library:1.1.4'
