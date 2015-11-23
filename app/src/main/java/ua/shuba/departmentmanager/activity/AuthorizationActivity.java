@@ -11,7 +11,7 @@ import ua.shuba.departmentmanager.fragment.RegisterFragment.RegisterFragmentList
 import ua.shuba.departmentmanager.fragment.RegisterFragment_;
 
 @EActivity
-public class AuthorizationActivity extends BaseFragmentActivity
+public class  extends BaseFragmentActivity
         implements RegisterFragmentListener, LoginCallbacks {
 
     @Override
